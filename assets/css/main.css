@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "proxima-nova-soft";
+  font-style: normal;
+  src: url("ProximaNovaSoft-Regular.otf")format("opentype");
+}
+.text-bold {
+  font-weight: bold;
+}
+body {
+  font-family: "proxima-nova-soft";
+}
+.container-fluid {
+  background-color: skyblue;
+  padding: 0 45px;
+}
+.container {
+
+}
+header {
+  background-color: white;
+}
+header .alert{
+  background-color: red;
+  height: 35px;
+  margin-bottom: 35px;
+}
+header nav{
+  background-color: green;
+  height: 45px;
+}
+header .brand{
+  background-color: yellow;
+  height: 30px;
+}
+header .menu{
+  background-color: pink;
+  height: 30px;
+}
+header .menu ul{
+  background-color: gray;
+}
+header .menu li{
+  background-color: white;
+}
+header .contact{
+  background-color: orange;
+  height: 30px;
+}
