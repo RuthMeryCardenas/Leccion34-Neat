@@ -6,6 +6,18 @@
 .text-bold {
   font-weight: bold;
 }
+.list-h{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  list-style:none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.list-h .list-h-item{
+  text-decoration: none;
+}
 body {
   font-family: "proxima-nova-soft";
 }
@@ -25,16 +37,16 @@ header .alert{
   margin-bottom: 35px;
 }
 header nav{
-  background-color: green;
+  /*background-color: green;*/
   height: 45px;
 }
 header .brand{
   background-color: yellow;
-  height: 30px;
+  height: 100%;
 }
 header .menu{
   background-color: pink;
-  height: 30px;
+  height: 100%;
 }
 header .menu ul{
   background-color: gray;
@@ -44,5 +56,5 @@ header .menu li{
 }
 header .contact{
   background-color: orange;
-  height: 30px;
+  height: 100%;
 }
